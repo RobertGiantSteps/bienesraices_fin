@@ -1,0 +1,21 @@
+# Dependencias
+/node_modules/
+
+# Variables de entorno (secretos)
+.env
+.env.*
+!.env.example
+
+# Build generado por Gulp (npx gulp): css, js, img y webp salen de src/
+/build/
+
+# Source maps
+*.map
+
+# Logs
+*.log
+
+# Sistema / editor
+.DS_Store
+.vscode/
+.idea/
